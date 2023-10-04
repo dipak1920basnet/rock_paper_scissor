@@ -44,5 +44,6 @@ function play_game(){
     }
     
 }
-play_game()
+play_game() // calling the function in order to run the game 
+
 
