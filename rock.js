@@ -60,7 +60,7 @@ scissor.addEventListener('click',()=>{
 })
 function end_score(){
 if(computer_score ==5 || player_score == 5){
-    if (computer_score===5){
+    if (computer_score==5){
         document.body.innerHTML = `Computer won the game with the score of ${computer_score}`
     }
     else{
