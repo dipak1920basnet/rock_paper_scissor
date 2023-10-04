@@ -4,30 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        img{
-            height: 50px;
-            width: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="rock.css">
     <script src="rock.js"></script>
 </head>
 <body>
-    <h1>
-        Techincally this is the heading currently
-    </h1>
-    <h2>
-        Computers Choice 
-    </h2>
-    <button id = 'rock'>
-        <img src="Rock.jpeg" alt="This is an images">
-    </button>
-    <button id = 'paper'>
-        <img src="paper.jpeg" alt="This is an images">
-    </button>
-    <button id = 'scissor'>
-        <img src="Scissor.jpeg" alt="This is an images">
-    </button>
+
+
+    <div id="start" class="main">
+        <h1> Rock, Scissor, Paper </h1>
+        <button id = 'start'> Start Game </button>
+    </div>
+
+   
     
+    
+
+
+
+
+    <div class="human">
+        <button id = 'rock'>
+            <img src="Rock.jpeg" alt="This is an images">
+        </button>
+        <button id = 'paper'>
+            <img src="paper.jpeg" alt="This is an images">
+        </button>
+        <button id = 'scissor'>
+            <img src="Scissor.jpeg" alt="This is an images">
+        </button>    
+    </div>
+   </div>
+    <div class="battleground">
+        <h1>
+            Score:
+        </h1>
+    </div>
+
+    <div class="notme">
+        <h2>
+            Computers Choice:
+        </h2>
+    <div class="computer">
+        
+        <button> <img class="play" src="Rock.jpeg" alt=" Rock "> Rock </button>
+        <button> <img class="play" src="Scissor.jpeg" alt=" Scissor"> Scissor</button>
+        <button> <img class="play" src="paper.jpeg" alt="Paper"> Paper</button> 
+    </div>
+
+
+
+
+
+
+
+
 </body>
 </html>
